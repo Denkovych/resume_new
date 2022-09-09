@@ -1,37 +1,124 @@
-<article class="example" id="uk">
-  <h1>HTML-partials</h1>
+<div class="main" class="example" id="uk">
+  <!--MainContent-->
+  <div class="main-content">
+   <!--about user-->
+   <div class="about">
+      <h2 class="about-position">Front-End Developer</h2>
+      <h1 class="about-name">Denkovych Yurii</h1>
+     <p class="about-discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+  aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+   </div> 
+   <!--Projects--> 
+   <div class="projects">
+       <h3 class="title"> 
+           Projects</h3>
 
-  <!--
-    ❗️❗️❗️ The path to images from the HTML partial
-    is the same as from the index.html file
-  -->
-  <img src="images/logo.png" alt="" width="320" />
 
+       <ol class="projects-list">
+           <li class="li-site">
+               <span class="span-site"><a href="https://hellenglish.goit.global/" class="site-link">https://hellenglish.goit.global/</a>
+              ........ <span class="bracket-site">[</span> HTML5, CSS3 <span class="bracket-site">]</span></span>
+               
+           </li>
+           <li class="li-site">
+               <span class="span-site"><a href="https://cryptohub.goit.global/ " class="site-link">https://cryptohub.goit.global/</a>
+              .......... <span class="bracket-site">[</span> JavaScript <span class="bracket-site">]</span> </span>
+               
+           </li>
+           <li class="li-site">
+               <span class="span-site"><a href="https://kidslike.goit.global/" class="site-link">https://kidslike.goit.global/</a>
+              ................ <span class="bracket-site">[</span> React.js, Node.js <span class="bracket-site">]</span> </span>
+               
+           </li>
+       </ol>
+   </div> 
+   <!--Work-->
+   <div class="work">
+       <h3 class="title">Work Expirience</h3>
+       <!--Company1-->
+       <div class="company1">
+           <h4 class="work-position">Front-End Developer <span class="organization">Freelance</span> </h4>
+           <p class="date">September 2019 - up to now <span class="ruska">|</span> Country</p>
+           <ul class="work-list">
+               <li class="work-li">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua.</li>
+               <li class="work-li">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+               <li class="work-li">Risus commodo viverra maecenas.</li>
+               <li class="work-li">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+           </ul>
+       </div>
+       <!--Company2-->
+       <div class="company2">
+          <h4  class="work-position">Manager <span class="organization">Roga & Kopyta New</span> </h4>
+          <p class="date">March 2015 - October 2018 <span class="ruska">|</span> Country</p>
+          <ul class="work-list">
+              <li class="work-li">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+              <li class="work-li">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li class="work-li">Risus commodo viverra maecenas</li>
+              
+          </ul>
+       </div>
+       <!--Company3-->
+       <div class="company3">
+          <h4  class="work-position">Manager <span class="organization">Roga & Kopyta </span> </h4>
+          <p class="date">June 2014 - February 2015 <span class="ruska">|</span> Country</p>
+          <ul class="work-list">
+              <li class="work-li">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+              <li class="work-li">Quis ipsum suspendisse ultrices gravida</li>
+              <li class="work-li">Risus commodo viverra maecenas</li>
+          
+          </ul>
+       </div>
+   </div>
+   <!--Education-->
+   <div class="education">
+       <h3 class="title">Education</h3>
+       <h4 class="study">National University of Radioelectronics</h4>
+       <h5>Manegment</h5>
+       <p class="date">September 2009 - June 2014 <span class="ruska">|</span> Country</p>
+   </div>
+  </div>
+  <!--Sidebar-->
+  <div class="sidebar">
+<img class="image" src="./images/my__photo.jpg" alt="user photo">
+<!--Contacts-->
+<div class="contacts">
+<h3 class="sidebar-title">Contacts</h3>
+<div>
   <p>
-    The
-    <a
-      href="https://github.com/posthtml/posthtml-include"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      posthtml-include
-    </a>
-    plugin allows you to add code from other HTML files (fragments) to HTML page
-    files. Fragments are stored in the <code>src/partials</code> folder. The
-    addition occurs when compiling page files, such as <code>index.html</code>.
-  </p>
+      <span class="contact-type">C:</span>
+     <a href="tel:+77777777777" class="contact-link">+7 777 777 77 77</a> 
 
-  <p>
-    This <code>example.html</code> file is an example of such a snippet, with
-    the markup of a certain part of the main page. This is very convenient for
-    team development on student projects, when several people write in one HTML
-    file at once.
   </p>
+ <p>
+     <span class="contact-type">E:</span>
+      <a href="mailto:chornyiav@gmail.com" class="contact-link">chornyiav@gmail.com</a> </p>
+  
+</div>
 
-  <p>
-    The syntax for adding a fragment to the main file is:
-    <code> &lt;include src="./partials/filename.html"&gt;&lt;/include&gt;</code>
-  </p>
-
-  <div class="background"></div>
-</article>
+</div>
+<!--TEch skills-->
+<div class="tech-skills">
+<h3 class="sidebar-title">Tech Skills</h3>
+<ul class="tech-skills-list">
+  <li class="tech-skills-li"> <span class="tech-skills-title">HTML5</span></li>
+  <li class="tech-skills-li"> <span class="tech-skills-title">CSS3</span></li>
+  <li class="tech-skills-li"> <span class="tech-skills-title">GIT</span></li>
+  <li class="tech-skills-li"> <span class="tech-skills-title">WebPack</span></li>
+  <li class="tech-skills-li"> <span class="tech-skills-title">JavaScript</span></li>
+  <li class="tech-skills-li"> <span class="tech-skills-title">React.js</span></li>
+  <li class="tech-skills-li"> <span class="tech-skills-title">Node.js</span> </li>
+</ul>
+</div>
+<!--Soft skills-->
+<div class="soft-skills">
+<h3 class="sidebar-title">Soft skills</h3>
+<ul class="soft-skills-list">
+  <li class="soft-skills-li"> <span class="soft-skills-title">Scrum</span> </li>
+  <li class="soft-skills-li"> <span class="soft-skills-title">Agile</span></li>
+  <li class="soft-skills-li"> <span class="soft-skills-title">GTD</span></li>
+  <li class="soft-skills-li"> <span class="soft-skills-title">Teamwork</span></li>
+</ul>
+</div>
+  </div>
+</div>
